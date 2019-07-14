@@ -131,6 +131,11 @@ class App extends React.Component {
     return (
         <Container fluid={true}>
           <Row>
+            <Col md="12">
+              <h1>Currency Converter</h1>
+            </Col>
+          </Row>
+          <Row>
             <Col md="4">
               <label htmlFor="datum" />Datum:
               <Row>
